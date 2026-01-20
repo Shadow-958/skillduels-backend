@@ -8,16 +8,43 @@ const { initializeSocket } = require("./socket/socketHandler");
 dotenv.config();
 
 const app = express();
-const corsOptions = {
-  origin: [
-    process.env.FRONTEND_URL || "http://localhost:5173",
+// Allow multiple frontend URLs from environment or default list
+const getAllowedOrigins = () => {
+  const origins = [
     "http://localhost:5173",
     "http://localhost:3000",
     "http://localhost:3001",
     "http://127.0.0.1:5173",
     "http://127.0.0.1:3000",
-    "http://127.0.0.1:3001"
-  ],
+    "http://127.0.0.1:3001",
+    "https://skillduels-fe.web.app",
+    "https://skillduels-fe.firebaseapp.com"
+  ];
+
+  // Add FRONTEND_URL from environment if provided
+  if (process.env.FRONTEND_URL) {
+    origins.push(process.env.FRONTEND_URL);
+  }
+
+  // Support multiple frontend URLs separated by comma
+  if (process.env.FRONTEND_URLS) {
+    origins.push(...process.env.FRONTEND_URLS.split(',').map(url => url.trim()));
+  }
+
+  return origins;
+};
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    const allowedOrigins = getAllowedOrigins();
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      console.warn(`⚠️  CORS blocked origin: ${origin}`);
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],

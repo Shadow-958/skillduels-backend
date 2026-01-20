@@ -3,22 +3,21 @@ const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
-// Generate Access Token (15 min)
 const generateAccessToken = (userId) => {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, { expiresIn: "15m" });
 };
 
-// Generate Refresh Token (7 days)
+
 const generateRefreshToken = (userId) => {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, { expiresIn: "7d" });
 };
 
-// Register User
+
 exports.registerUser = async (req, res, next) => {
   try {
     const { username, email, password, isAdmin } = req.body;
 
-    // Validate input
+    
     if (!username || !email || !password) {
       return res.status(400).json({
         success: false,
@@ -26,11 +25,9 @@ exports.registerUser = async (req, res, next) => {
       });
     }
 
-    // Normalize email to lowercase (matching login)
+    
     const normalizedEmail = email.trim().toLowerCase();
     const normalizedUsername = username.trim();
-
-    // Check existing user with normalized email
     const existingUser = await User.findOne({ 
       $or: [
         { email: normalizedEmail }, 
@@ -44,11 +41,10 @@ exports.registerUser = async (req, res, next) => {
       });
     }
 
-    // Hash password
     const salt = await bcrypt.genSalt(10);
     const passwordHash = await bcrypt.hash(password.trim(), salt);
 
-    // Create user
+
     const user = await User.create({
       username: normalizedUsername,
       email: normalizedEmail,
@@ -62,8 +58,6 @@ exports.registerUser = async (req, res, next) => {
 
     const accessToken = generateAccessToken(user._id);
     const refreshToken = generateRefreshToken(user._id);
-
-    // Save refresh token
     user.refreshToken = refreshToken;
     await user.save();
 
@@ -86,7 +80,6 @@ exports.registerUser = async (req, res, next) => {
   }
 };
 
-// Login User
 exports.loginUser = async (req, res, next) => {
   try {
     const { email, password } = req.body;
@@ -116,7 +109,6 @@ exports.loginUser = async (req, res, next) => {
       });
     }
 
-    // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(trimmedEmail)) {
       return res.status(400).json({
@@ -124,18 +116,13 @@ exports.loginUser = async (req, res, next) => {
         message: "Please enter a valid email address",
       });
     }
-
-    // Find user (email is stored in lowercase in DB due to schema)
     console.log(`[LOGIN] Searching for user with email: ${trimmedEmail}`);
     const user = await User.findOne({ email: trimmedEmail }).select("+passwordHash");
     
     if (!user) {
-      // Check if any users exist at all (for debugging)
       const userCount = await User.countDocuments();
       console.log(`[LOGIN] User not found for email: ${trimmedEmail}`);
       console.log(`[LOGIN] Total users in database: ${userCount}`);
-      
-      // List first few emails for debugging (in development only)
       if (process.env.NODE_ENV === 'development' && userCount > 0) {
         const sampleUsers = await User.find({}).select('email username').limit(5);
         console.log(`[LOGIN] Sample users in DB:`, sampleUsers.map(u => ({ email: u.email, username: u.username })));
@@ -148,16 +135,12 @@ exports.loginUser = async (req, res, next) => {
     }
     
     console.log(`[LOGIN] User found: ${user.username} (${user.email}), checking password...`);
-
-    // Check if user is active
     if (user.isActive === false) {
       return res.status(400).json({
         success: false,
         message: "Account is deactivated. Please contact support.",
       });
     }
-
-    // Compare password
     const isMatch = await bcrypt.compare(trimmedPassword, user.passwordHash);
     if (!isMatch) {
       console.log(`[LOGIN] Password mismatch for email: ${trimmedEmail}`);
@@ -172,7 +155,6 @@ exports.loginUser = async (req, res, next) => {
     const accessToken = generateAccessToken(user._id);
     const refreshToken = generateRefreshToken(user._id);
 
-    // Save refresh token
     user.refreshToken = refreshToken;
     await user.save();
 
@@ -196,7 +178,6 @@ exports.loginUser = async (req, res, next) => {
   }
 };
 
-// Refresh Token
 exports.refreshToken = async (req, res, next) => {
   try {
     const { refreshToken } = req.body;
