@@ -1,0 +1,275 @@
+[
+    {
+        "category": "DSA",
+        "questionText": "Which data structure uses LIFO (Last In First Out) principle?",
+        "options": ["Queue", "Stack", "Array", "Linked List"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "What is the time complexity of searching for an element in a balanced binary search tree?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is a stable sorting algorithm?",
+        "options": ["Quick Sort", "Heap Sort", "Merge Sort", "Selection Sort"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "What is the maximum number of nodes in a binary tree of height h?",
+        "options": ["2^h", "2^(h+1) - 1", "h^2", "h!"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following operations is fastest in a hash table on average?",
+        "options": ["Insert", "Search", "Delete", "All of the above"],
+        "correctAnswerIndex": 3,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is not a linear data structure?",
+        "options": ["Array", "Stack", "Queue", "Binary Tree"],
+        "correctAnswerIndex": 3,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which graph traversal technique uses a queue?",
+        "options": ["Depth First Search", "Breadth First Search", "Topological Sort", "Dijkstra's Algorithm"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "What is the worst-case time complexity of Quick Sort?",
+        "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is a non-comparison-based sorting algorithm?",
+        "options": ["Merge Sort", "Heap Sort", "Counting Sort", "Quick Sort"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following data structures is used in implementing recursion?",
+        "options": ["Stack", "Queue", "Linked List", "Array"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is true for a complete binary tree?",
+        "options": ["All levels are completely filled", "Last level may be partially filled from left", "It must be perfect", "It has exactly 2^h nodes"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "In a min-heap, which element is always at the root?",
+        "options": ["Maximum element", "Minimum element", "Median element", "Random element"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following algorithms is used to find the shortest path in a weighted graph without negative weights?",
+        "options": ["Dijkstra's Algorithm", "Bellman-Ford Algorithm", "Floyd-Warshall Algorithm", "Prim's Algorithm"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is the most efficient for inserting elements at the beginning frequently?",
+        "options": ["Array", "Singly Linked List", "Doubly Linked List", "Stack"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which data structure is used in implementing BFS (Breadth First Search)?",
+        "options": ["Stack", "Queue", "Priority Queue", "Tree"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following best describes a circular queue?",
+        "options": ["Queue with a fixed size", "Queue where last node points to first node", "Queue implemented with stack", "Queue with priority"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is true about a binary search tree?",
+        "options": ["Left child > parent", "Right child < parent", "Left child < parent", "All children are equal"],
+        "correctAnswerIndex": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which algorithm is used for cycle detection in a directed graph?",
+        "options": ["DFS", "BFS", "Topological Sort", "Kruskal's Algorithm"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "What is the time complexity of searching an element in an unsorted array?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is not a self-balancing binary search tree?",
+        "options": ["AVL Tree", "Red-Black Tree", "Splay Tree", "Binary Heap"],
+        "correctAnswerIndex": 3,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is used to implement priority queue efficiently?",
+        "options": ["Array", "Stack", "Heap", "Linked List"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which algorithm is used for finding minimum spanning tree?",
+        "options": ["Dijkstra", "Prim", "Bellman-Ford", "Floyd-Warshall"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which traversal technique is used in Depth First Search?",
+        "options": ["Queue", "Stack", "Heap", "Array"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following sorts has the best average case time complexity?",
+        "options": ["Bubble Sort", "Quick Sort", "Selection Sort", "Insertion Sort"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is not a characteristic of a stack?",
+        "options": ["LIFO", "Push", "Pop", "Random Access"],
+        "correctAnswerIndex": 3,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is the best data structure to implement a recursive function?",
+        "options": ["Queue", "Stack", "Heap", "Array"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "What is the worst-case time complexity of inserting an element in a hash table with chaining?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is a divide and conquer algorithm?",
+        "options": ["Merge Sort", "Bubble Sort", "Insertion Sort", "Linear Search"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following algorithms is used for topological sorting?",
+        "options": ["DFS", "BFS", "Heap Sort", "Quick Sort"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is true about graphs?",
+        "options": ["Graphs must be connected", "Graphs may have cycles", "Graphs cannot have weights", "Graphs are always trees"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is a dynamic programming problem?",
+        "options": ["Fibonacci Series", "Binary Search", "Quick Sort", "DFS Traversal"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is the worst-case complexity of accessing an element in a singly linked list?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+        "correctAnswerIndex": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which algorithm is used to detect strongly connected components in a graph?",
+        "options": ["Kosaraju's Algorithm", "Dijkstra's Algorithm", "Prim's Algorithm", "Bellman-Ford Algorithm"],
+        "correctAnswerIndex": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is true about a doubly linked list?",
+        "options": ["It can be traversed in both directions", "It has only one pointer per node", "It cannot be empty", "It is slower than singly linked list in all operations"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is true about BFS and DFS?",
+        "options": ["BFS uses stack, DFS uses queue", "BFS uses queue, DFS uses stack", "Both use stack", "Both use queue"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is true about AVL trees?",
+        "options": ["They are unbalanced binary trees", "Height difference between left and right subtrees is at most 1", "All nodes have two children", "Insertion is O(n^2)"],
+        "correctAnswerIndex": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is used to detect cycles in an undirected graph?",
+        "options": ["DFS", "BFS", "Union-Find", "Topological Sort"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is true about heaps?",
+        "options": ["Max heap has smallest element at root", "Min heap has largest element at root", "Heaps are complete binary trees", "Heaps are always balanced BSTs"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "DSA",
+        "questionText": "Which of the following is not a characteristic of dynamic programming?",
+        "options": ["Overlapping subproblems", "Optimal substructure", "Greedy choice", "Memoization"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    }
+]

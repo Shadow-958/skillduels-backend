@@ -1,0 +1,199 @@
+[
+  {
+    "category": "JavaScript",
+    "questionText": "What is the output of: console.log(typeof 42)?",
+    "options": ["integer", "number", "string", "undefined"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which keyword declares a block-scoped variable?",
+    "options": ["var", "let", "const", "both b and c"],
+    "correctAnswerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What is the output of: console.log('5' + 3)?",
+    "options": ["8", "2", "53", "error"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which company developed JavaScript?",
+    "options": ["Google", "Apple", "Netscape", "Microsoft"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "How do you write a comment in JavaScript?",
+    "options": ["# comment", "// comment", "<!-- comment -->", "/* comment */"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What is the output of: Boolean('')?",
+    "options": ["true", "false", "undefined", "error"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which function converts JSON string to object?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "Object.json()"],
+    "correctAnswerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which operator compares both value & type?",
+    "options": ["==", "===", "!=", "="],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which method removes the last element of an array?",
+    "options": ["push()", "pop()", "shift()", "slice()"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What is the default value of an uninitialized variable?",
+    "options": ["null", "undefined", "0", "false"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "JavaScript",
+    "questionText": "What is the output: console.log(typeof NaN)?",
+    "options": ["number", "NaN", "undefined", "object"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which array method returns a new array with filtered values?",
+    "options": ["map()", "filter()", "reduce()", "find()"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What is the output: console.log('5' - 2)?",
+    "options": ["3", "52", "error", "NaN"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which method is used to convert object to JSON string?",
+    "options": ["JSON.parse()", "JSON.stringify()", "toJSON()", "Object.toString()"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What is closure in JavaScript?",
+    "options": [
+      "A function inside another function",
+      "Inner function having access to outer scope",
+      "A method to close program",
+      "None"
+    ],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which keyword prevents reassignment of variable?",
+    "options": ["var", "let", "const", "static"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What is hoisting?",
+    "options": [
+      "Using variables before declaration",
+      "Moving declarations to top",
+      "Deleting variables",
+      "None"
+    ],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which method joins array elements into string?",
+    "options": ["concat()", "join()", "push()", "reduce()"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which loop iterates over object properties?",
+    "options": ["for", "forEach", "for in", "for of"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What will console.log([] == []) return?",
+    "options": ["true", "false", "error", "undefined"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "JavaScript",
+    "questionText": "What is the output: console.log([1,2] + [3,4])?",
+    "options": ["[1,2,3,4]", "10", "1,23,4", "1,23,4"],
+    "correctAnswerIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What does 'use strict' do?",
+    "options": [
+      "Enforces secure coding & avoids silent errors",
+      "Speeds up code",
+      "Allows undeclared variables",
+      "Disables hoisting"
+    ],
+    "correctAnswerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What is the output of: console.log(0.1 + 0.2 === 0.3)?",
+    "options": ["true", "false", "undefined", "error"],
+    "correctAnswerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "Which method stops event propagation?",
+    "options": ["preventDefault()", "stopImmediatePropagation()", "stop()", "cancel()"],
+    "correctAnswerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "category": "JavaScript",
+    "questionText": "What is prototype in JS?",
+    "options": [
+      "A blueprint for creating objects",
+      "Parent object from which other objects inherit",
+      "A class",
+      "None"
+    ],
+    "correctAnswerIndex": 1,
+    "difficulty": "hard"
+  }
+]

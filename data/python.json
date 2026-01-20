@@ -1,0 +1,296 @@
+[
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(2 ** 3)?",
+        "options": ["6", "8", "9", "5"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is mutable in Python?",
+        "options": ["tuple", "string", "list", "frozenset"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the result of: bool('False')?",
+        "options": ["False", "True", "None", "Error"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which keyword is used to create a generator in Python?",
+        "options": ["yield", "return", "generate", "def"],
+        "correctAnswerIndex": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(len([[]]))?",
+        "options": ["0", "1", "2", "Error"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What data type is returned by the input() function in Python?",
+        "options": ["int", "str", "float", "bool"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is a Python tuple?",
+        "options": ["[1,2,3]", "{1,2,3}", "(1,2,3)", "None of these"],
+        "correctAnswerIndex": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(5 // 2)?",
+        "options": ["2", "2.5", "3", "Error"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which built-in function is used to get the ASCII value of a character?",
+        "options": ["ascii()", "ord()", "char()", "chr()"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following statements is true about Python dictionaries?",
+        "options": ["Keys are mutable", "Values are immutable", "Keys are unique", "Dictionary is ordered by default"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print('Hello' + str(1))?",
+        "options": ["Hello 1", "Hello1", "Hello", "Error"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which method can be used to remove whitespace from both ends of a string?",
+        "options": ["strip()", "trim()", "remove()", "clean()"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(list(range(2,10,3)))?",
+        "options": ["[2,5,8]", "[2,3,4,5,6,7,8,9]", "[2,5,8,11]", "[2,6,9]"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which operator is used for floor division in Python?",
+        "options": ["/", "//", "%", "**"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(type({}))?",
+        "options": ["dict", "set", "list", "tuple"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is not a keyword in Python?",
+        "options": ["pass", "eval", "raise", "assert"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(bool([]))?",
+        "options": ["True", "False", "None", "Error"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following will create an empty set?",
+        "options": ["{}", "set()", "[]", "empty()"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which function converts a string to a float in Python?",
+        "options": ["int()", "str()", "float()", "double()"],
+        "correctAnswerIndex": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print('abc' * 3)?",
+        "options": ["abcabc", "abcabcabc", "abc3", "Error"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which module in Python is used for regular expressions?",
+        "options": ["re", "regex", "pyregex", "expression"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(type(lambda x: x))?",
+        "options": ["function", "lambda", "function object", "method"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is the correct way to open a file for writing?",
+        "options": ["open('file.txt','r')", "open('file.txt','w')", "open('file.txt','a+')", "open('file.txt','x')"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(10 == 10.0)?",
+        "options": ["True", "False", "TypeError", "0"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following statements about Python lists is true?",
+        "options": ["Lists are immutable", "Lists can store heterogeneous data", "Lists can only store numbers", "Lists cannot contain other lists"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is used to handle exceptions in Python?",
+        "options": ["try-except", "do-catch", "try-catch", "catch-except"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(list('Python'))?",
+        "options": ["['Python']", "['P','y','t','h','o','n']", "['Pyt','hon']", "Error"],
+        "correctAnswerIndex": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is true about Python sets?",
+        "options": ["Sets are ordered", "Sets cannot have duplicate elements", "Sets support indexing", "Sets allow mutable elements"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following will throw an error?",
+        "options": ["int('10')", "int('10.5')", "float('10.5')", "str(10)"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(3 * 'ab' + 'cd')?",
+        "options": ["abababcd", "ababab cd", "abababcdcd", "Error"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following functions can be used to get a list of keys in a dictionary?",
+        "options": ["keys()", "values()", "items()", "get_keys()"],
+        "correctAnswerIndex": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is used to iterate over a sequence with index in Python?",
+        "options": ["enumerate()", "index()", "range()", "zip()"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print('Python'[::-1])?",
+        "options": ["nohtyP", "Python", "P y t h o n", "Error"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following statements is correct about Python functions?",
+        "options": ["Python functions cannot return multiple values", "Python functions must have return statement", "Python functions can return multiple values", "Python functions do not accept arguments"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is true about Python's GIL (Global Interpreter Lock)?",
+        "options": ["It allows true multi-threading", "It prevents multi-threading in Python", "It allows only one thread to execute Python bytecode at a time", "It is a library for thread management"],
+        "correctAnswerIndex": 2,
+        "difficulty": "hard"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print([i*i for i in range(3)])?",
+        "options": ["[0,1,4]", "[0,1,2]", "[1,4,9]", "[0,1,4,9]"],
+        "correctAnswerIndex": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following statements is correct about Python decorators?",
+        "options": ["Decorators modify functions", "Decorators are used to handle exceptions", "Decorators are used to create classes", "Decorators are a type of loop"],
+        "correctAnswerIndex": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following is correct about Python's 'with' statement?",
+        "options": ["Used to handle exceptions", "Used for resource management", "Used to create functions", "Used to iterate lists"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(type(lambda x: x+1))?",
+        "options": ["function", "lambda", "function object", "method"],
+        "correctAnswerIndex": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following statements about Python's memory management is true?",
+        "options": ["Python uses garbage collection", "Python requires manual memory management", "Python does not manage memory", "Python uses C++ memory allocation"],
+        "correctAnswerIndex": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "Python",
+        "questionText": "What is the output of: print(sum([1,2,3,4], 5))?",
+        "options": ["10", "15", "14", "Error"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "Python",
+        "questionText": "Which of the following statements about Python's 'is' operator is true?",
+        "options": ["Checks equality", "Checks identity", "Assigns a value", "Compares type"],
+        "correctAnswerIndex": 1,
+        "difficulty": "medium"
+    }
+]

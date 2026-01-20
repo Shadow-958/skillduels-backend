@@ -1,0 +1,179 @@
+[
+  {
+    "category": "Aptitude",
+    "questionText": "What is 15% of 200?",
+    "options": ["20", "25", "30", "35"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "If a man travels 60 km in 3 hours, what is his speed?",
+    "options": ["10 km/hr", "15 km/hr", "20 km/hr", "25 km/hr"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "What is the simple interest on ₹1000 at 5% for 2 years?",
+    "options": ["₹50", "₹75", "₹100", "₹150"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "Find the average of 4, 8, 12, 16.",
+    "options": ["8", "10", "12", "14"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "If 4 workers finish a job in 8 days, how long will 8 workers take?",
+    "options": ["2 days", "3 days", "4 days", "5 days"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "What is 25% of 60?",
+    "options": ["10", "12", "15", "20"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "What is the ratio of 2:8?",
+    "options": ["1:2", "1:3", "1:4", "1:5"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "Solve: 2/5 of 50",
+    "options": ["10", "15", "20", "25"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "What is the HCF of 12 and 18?",
+    "options": ["2", "3", "6", "9"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "What is 0.75 written as a fraction?",
+    "options": ["1/2", "2/3", "3/4", "4/5"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "Aptitude",
+    "questionText": "A train 120m long crosses a pole in 6 seconds. What is its speed?",
+    "options": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "A shopkeeper gives a 20% discount on a ₹500 item. What is the selling price?",
+    "options": ["₹350", "₹375", "₹400", "₹450"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "If A is 30% more than B, then B is how much less than A?",
+    "options": ["23.1%", "30%", "25%", "20%"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "Pipe A fills a tank in 12 hrs, Pipe B in 8 hrs. Together they fill in?",
+    "options": ["4 hrs", "4.8 hrs", "5 hrs", "6 hrs"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "What is the compound interest on ₹2000 at 10% for 2 years?",
+    "options": ["₹200", "₹210", "₹420", "₹440"],
+    "correctAnswerIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "A can do a job in 12 days; B in 15 days. Together they do it in?",
+    "options": ["6.4 days", "6.67 days", "7 days", "7.5 days"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "Selling price is ₹2400 with 20% profit. Find cost price.",
+    "options": ["₹1800", "₹1900", "₹2000", "₹2200"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "A person covers 90 km at 45 km/hr and returns at 30 km/hr. Find avg speed.",
+    "options": ["35 km/hr", "36 km/hr", "37 km/hr", "40 km/hr"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "Find the value of √196.",
+    "options": ["12", "13", "14", "15"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "Find LCM of 18, 24, 30.",
+    "options": ["90", "120", "180", "240"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "Aptitude",
+    "questionText": "A man invests ₹5000 at 12% CI. Amount after 3 years?",
+    "options": ["₹6500", "₹6900", "₹7029", "₹7500"],
+    "correctAnswerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "Train A crosses Train B in 12 sec at combined speed 90 m/s. Total length?",
+    "options": ["700m", "900m", "1080m", "1200m"],
+    "correctAnswerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "A mixture contains milk & water in ratio 7:3. Add how much water to make it 1:1?",
+    "options": ["30%", "40%", "50%", "70%"],
+    "correctAnswerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "If population increases by 10%, 20%, and decreases by 10%, net change?",
+    "options": ["+15%", "+17%", "+18%", "+19%"],
+    "correctAnswerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Aptitude",
+    "questionText": "A sells an item at 20% loss. If sold at ₹240 more, he gains 10%. Find CP.",
+    "options": ["₹600", "₹700", "₹800", "₹900"],
+    "correctAnswerIndex": 2,
+    "difficulty": "hard"
+  }
+]

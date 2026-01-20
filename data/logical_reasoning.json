@@ -1,0 +1,179 @@
+[
+  {
+    "category": "Logical Reasoning",
+    "questionText": "If A = 1, B = 2, C = 3, what is the value of CAT?",
+    "options": ["24", "27", "20", "25"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Find the next number: 2, 5, 10, 17, 26, ___",
+    "options": ["35", "37", "40", "42"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Which one is different: Apple, Orange, Banana, Carrot?",
+    "options": ["Apple", "Orange", "Banana", "Carrot"],
+    "correctAnswerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "If NORTH is written as QPSUI, how is SOUTH written?",
+    "options": ["TPVUI", "TPVTI", "TQVUI", "UPVTI"],
+    "correctAnswerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Which shape comes next? Square, Circle, Square, Circle, ___",
+    "options": ["Square", "Triangle", "Circle", "Rectangle"],
+    "correctAnswerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Find the odd one out: Dog, Cat, Cow, Crow",
+    "options": ["Dog", "Cat", "Cow", "Crow"],
+    "correctAnswerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "If ALL = 36, how much is BALL?",
+    "options": ["48", "54", "60", "66"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Which number replaces the question mark: 12 → 21, 15 → 51, 18 → ?",
+    "options": ["81", "82", "18", "80"],
+    "correctAnswerIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Rearrange the letters: RACET to form a meaningful word.",
+    "options": ["TRACE", "CRATE", "REACT", "All of the above"],
+    "correctAnswerIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Which one is different: 4, 9, 16, 18, 25",
+    "options": ["9", "16", "18", "25"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Find the next number: 6, 11, 21, 36, 56, ___",
+    "options": ["71", "81", "90", "102"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "If 8 × 2 = 68, 5 × 4 = 45, 6 × 3 = 63, then 9 × 1 = ?",
+    "options": ["9", "91", "19", "99"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "If TREE = 3555, what is FREE?",
+    "options": ["4555", "3555", "4455", "5555"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Pointing to a photo, John says: “He is the son of my grandmother’s only child.” Who is he?",
+    "options": ["John", "John’s father", "John’s brother", "John’s cousin"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "If FISH = 36, what is SHIP?",
+    "options": ["45", "48", "40", "44"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Solve the pattern: 2 → 6, 3 → 12, 4 → 20, 5 → ?",
+    "options": ["25", "30", "35", "40"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Find the missing value: 3, 7, 15, 31, ___",
+    "options": ["50", "55", "63", "65"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Which figure completes the series? ▲ ▼ ▲ ▼ ___",
+    "options": ["▲", "▼", "○", "□"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "In a code, CAT = 3120. What is DOG?",
+    "options": ["4157", "4150", "4156", "4153"],
+    "correctAnswerIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Which one does NOT belong: Iron, Silver, Gold, Plastic",
+    "options": ["Iron", "Silver", "Gold", "Plastic"],
+    "correctAnswerIndex": 3,
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Find the missing number: 4, 18, 100, 294, ___",
+    "options": ["784", "590", "768", "730"],
+    "correctAnswerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "If A + B means A is the father of B, A – B means A is the sister of B, A / B means A is the mother of B → Then P – Q / R means?",
+    "options": ["P is aunt of R", "P is sister of R", "P is mother of Q", "P is grandmother of R"],
+    "correctAnswerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Complete the pattern: 5, 13, 29, 61, ___",
+    "options": ["100", "125", "129", "145"],
+    "correctAnswerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "If FLY = 6, LET = 9, then SKY = ?",
+    "options": ["10", "12", "14", "15"],
+    "correctAnswerIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Logical Reasoning",
+    "questionText": "Three friends A, B, C are of different heights. A is taller than B but shorter than C. Who is shortest?",
+    "options": ["A", "B", "C", "Cannot be determined"],
+    "correctAnswerIndex": 1,
+    "difficulty": "hard"
+  }
+]

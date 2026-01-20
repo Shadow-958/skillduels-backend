@@ -1,0 +1,194 @@
+[
+  {
+    "category": "Java",
+    "questionText": "Which of the following is a valid Java identifier?",
+    "options": ["1variable", "variable1", "var-iable", "variable 1"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which keyword is used to create an object in Java?",
+    "options": ["create", "new", "class", "object"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Java is a ___ language.",
+    "options": ["Compiled", "Interpreted", "Both", "None"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which data type stores true/false values?",
+    "options": ["String", "boolean", "char", "int"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which OOP concept hides internal details?",
+    "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Default value of int variable in Java?",
+    "options": ["1", "0", "null", "undefined"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which method is starting point of Java application?",
+    "options": ["run()", "start()", "main()", "execute()"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which of these is NOT a primitive type?",
+    "options": ["char", "String", "int", "double"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which operator concatenates strings?",
+    "options": ["*", "+", "&&", "||"],
+    "correctAnswerIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which of these is a loop in Java?",
+    "options": ["repeat", "loop", "while", "iterate"],
+    "correctAnswerIndex": 2,
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "Java",
+    "questionText": "Which keyword is used to inherit a class?",
+    "options": ["this", "super", "extends", "implements"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "What is method overloading?",
+    "options": [
+      "Same method name, different parameters",
+      "Same method, same parameters",
+      "Same name, different classes",
+      "None"
+    ],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "What is the size of a char in Java?",
+    "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which class is the parent of all classes in Java?",
+    "options": ["Object", "Class", "String", "System"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which keyword restricts inheritance?",
+    "options": ["final", "static", "private", "void"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which exception occurs when array accesses invalid index?",
+    "options": [
+      "ArrayIndexOutOfBoundsException",
+      "NullPointerException",
+      "IndexException",
+      "ArithmeticException"
+    ],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which concept allows subclass to redefine parent method?",
+    "options": ["Overloading", "Overriding", "Abstraction", "Encapsulation"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which keyword is used to call parent class constructor?",
+    "options": ["this()", "super()", "parent()", "call()"],
+    "correctAnswerIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which interface is implemented to use threads?",
+    "options": ["Runnable", "Threadable", "Executor", "RunThread"],
+    "correctAnswerIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which of the following is NOT a feature of Java?",
+    "options": ["Platform independent", "Secure", "Pointers", "Object-oriented"],
+    "correctAnswerIndex": 2,
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "Java",
+    "questionText": "Which garbage collection algorithm does Java use?",
+    "options": ["Mark and Sweep", "Reference Counting", "Copy GC", "All of the above"],
+    "correctAnswerIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Java",
+    "questionText": "What is a Java ClassLoader?",
+    "options": [
+      "Loads class at runtime",
+      "Compiles Java program",
+      "Executes JVM",
+      "Creates objects"
+    ],
+    "correctAnswerIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which keyword is used to create custom exceptions?",
+    "options": ["error", "custom", "throw", "new"],
+    "correctAnswerIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Java",
+    "questionText": "Which memory area stores objects in Java?",
+    "options": ["Stack", "Heap", "Registers", "Cache"],
+    "correctAnswerIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "category": "Java",
+    "questionText": "What is the output of: System.out.println(10/0)?",
+    "options": ["0", "Infinity", "Exception", "Undefined"],
+    "correctAnswerIndex": 2,
+    "difficulty": "hard"
+  }
+]
